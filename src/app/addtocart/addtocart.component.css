@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'slogon';
+    src: url(../../assets/fonts/WinterSong-owRGB.ttf);
+}
+.box_1{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(../../assets/images/venice-wallpaper-4k-492886.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box_main{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+.box_5{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.292);
+}
+.box1{
+    background-color:whitesmoke;
+    height: auto;
+    margin-left: 20%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 1px grey;
+    display: flex;
+}
+.img_1{
+    height: 90px;
+    border-radius: 10px;
+    position:absolute;
+    opacity:80%;
+    left: 7%;
+    top: 0.5%;
+}
+.Mbox1{
+    height: 100px;
+    display: flex;
+}
+.dbox1{
+    height: 100px;
+    display: inline-block;
+}

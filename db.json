@@ -1,0 +1,534 @@
+{
+  "register": [
+    {
+      "email": "",
+      "password": "",
+      "pass": "",
+      "id": 1
+    },
+    {
+      "email": "sehajsarpal",
+      "password": "1122",
+      "pass": "1122",
+      "id": 2
+    },
+    {
+      "email": "kavita",
+      "password": "123",
+      "pass": "123",
+      "id": 3
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "pass": "112233",
+      "id": 4
+    },
+    {
+      "email": "man1",
+      "password": "1233",
+      "id": 5
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "id": 6
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "id": 7
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "id": 8
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "12",
+      "id": 9
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "",
+      "pass": "",
+      "id": 10
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "",
+      "pass": "",
+      "id": 11
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "",
+      "pass": "",
+      "id": 12
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "",
+      "pass": "",
+      "id": 13
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "",
+      "pass": "",
+      "id": 14
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "",
+      "pass": "",
+      "id": 15
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "",
+      "pass": "",
+      "id": 16
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 17
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 18
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 19
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 20
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 21
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 22
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 23
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 24
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 25
+    },
+    {
+      "email": "",
+      "password": "gcughj",
+      "pass": "",
+      "id": 26
+    },
+    {
+      "email": "",
+      "password": "gcjgcij",
+      "pass": "jgcdutduy",
+      "id": 27
+    },
+    {
+      "email": "bjbbbjbj",
+      "password": "",
+      "pass": "",
+      "id": 28
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "1Abshe*jbj",
+      "pass": "",
+      "id": 29
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "1Abshe*jbj",
+      "pass": "",
+      "id": 30
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "ss12SS*12",
+      "pass": "ss12SS*12",
+      "id": 31
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "ss12SS*12",
+      "pass": "ss12SS*12",
+      "id": 32
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "ss12SS*12",
+      "pass": "ss12SS*12",
+      "id": 33
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "ss12SS*12",
+      "pass": "ss12SS*12",
+      "id": 34
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "ss12SS*12",
+      "pass": "ss12SS*12",
+      "id": 35
+    }
+  ],
+  "places": [
+    {
+      "id": "1",
+      "hotel_name": "Keyonn Hotels & Resorts",
+      "price": "Rs.1200",
+      "location": "Amritsar"
+    },
+    {
+      "id": "2",
+      "hotel_name": "Hotel Grand Fortune",
+      "price": "Rs.1100",
+      "location": "Amritsar"
+    },
+    {
+      "id": "3",
+      "hotel_name": "The Landmark Amritsar",
+      "price": "Rs.2100",
+      "location": "Amritsar"
+    },
+    {
+      "id": "4",
+      "hotel_name": "Hotel Millennium",
+      "price": "Rs.1000",
+      "location": "Amritsar"
+    },
+    {
+      "id": "5",
+      "hotel_name": "Regenta Place Verka ByPass Amritsar",
+      "price": "Rs.2400",
+      "location": "Amritsar"
+    },
+    {
+      "id": "6",
+      "hotel_name": "Radisson Blu Hotel Amritsar",
+      "price": "Rs.5158",
+      "location": "Amritsar"
+    },
+    {
+      "id": "7",
+      "hotel_name": "Hotel Diamond Creek",
+      "price": "Rs.1467",
+      "location": "Amritsar"
+    },
+    {
+      "id": "8",
+      "hotel_name": "Country Inn Hall of Heritage Amritsar",
+      "price": "Rs.2611",
+      "location": "Amritsar"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "1",
+      "hotel_name": "Keyonn Hotels & Resorts",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "1200",
+      "description": "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the INA Colony part of Amritsar, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Golden Temple. This 3-star property features restaurant to make your stay more indulgent and memorable.",
+      "room_size": "1000 m²/10764 ft²",
+      "guests": "100",
+      "number_rooms": "50",
+      "reviews": "7.8 VERY GOOD",
+      "location": "",
+      "AIRPORT_TRANSFER": "No",
+      "CAR_PARKING": "yes",
+      "FREE_WIFI": "yes",
+      "BALCONY_TERRACE": "yes",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "yes"
+    },
+    {
+      "id": "2",
+      "hotel_name": "Hotel Grand Fortune",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "1100",
+      "description": "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Putli Ghar, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Golden Temple. This 4-star property features restaurant to make your stay more indulgent and memorable.",
+      "room_size": "15 m²/161 ft²",
+      "guests": "50",
+      "number_rooms": "24",
+      "reviews": "7.2 GOOD",
+      "location": "",
+      "AIRPORT_TRANSFER": "No",
+      "CAR_PARKING": "yes",
+      "FREE_WIFI": "yes",
+      "BALCONY_TERRACE": "yes",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "yes"
+    },
+    {
+      "id": "3",
+      "hotel_name": "The Landmark Amritsar",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "2100",
+      "description": "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Golden Temple, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Golden Temple. This 4-star property features restaurant to make your stay more indulgent and memorable.",
+      "room_size": "25 m²/269 ft²",
+      "guests": "58",
+      "number_rooms": "28",
+      "reviews": "7.9 VERY GOOD",
+      "location": "",
+      "AIRPORT_TRANSFER": "No",
+      "CAR_PARKING": "yes",
+      "FREE_WIFI": "yes",
+      "BALCONY_TERRACE": "yes",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "No"
+    },
+    {
+      "id": "4",
+      "hotel_name": "Hotel Millennium",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "1000",
+      "description": "Get your trip off to a great start with a stay at this property, which offers free Wi-Fi in all rooms. Strategically situated in Putli Ghar, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Golden Temple. This 4-star property features restaurant to make your stay more indulgent and memorable.",
+      "room_size": "10 m²/108 ft²",
+      "guests": "60",
+      "number_rooms": "30",
+      "reviews": "7.9 VERY GOOD",
+      "location": "",
+      "AIRPORT_TRANSFER": "No",
+      "CAR_PARKING": "yes",
+      "FREE_WIFI": "yes",
+      "BALCONY_TERRACE": "No",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "yes"
+    },
+    {
+      "id": "5",
+      "hotel_name": "Regenta Place Verka ByPass Amritsar",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "2400",
+      "description": "Get your trip off to a great start with a stay at this property, which offers free Wi-Fi in all rooms. Conveniently situated in the Shastri Nagar part of Amritsar, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Golden Temple. This 4-star property features restaurant to make your stay more indulgent and memorable.",
+      "room_size": "29 m²/312 ft²",
+      "guests": "80",
+      "number_rooms": "40",
+      "reviews": "8.1 EXCELLENT",
+      "location": "",
+      "AIRPORT_TRANSFER": "yes",
+      "CAR_PARKING": "yes",
+      "FREE_WIFI": "yes",
+      "BALCONY_TERRACE": "yes",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "yes"
+    },
+    {
+      "id": "6",
+      "hotel_name": "Radisson Blu Hotel Amritsar",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "5025",
+      "description": "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Bal part of Amritsar, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Golden Temple. Rated with 4.5 stars, this high-quality property provides guests with access to restaurant, fitness center and indoor pool on-site.",
+      "room_size": "36 m²/338 ft²",
+      "guests": "200",
+      "number_rooms": "102",
+      "reviews": "8.4 EXCELLENT",
+      "location": "",
+      "AIRPORT_TRANSFER": "yes",
+      "CAR_PARKING": "yes",
+      "FREE_WIFI": "yes",
+      "BALCONYTE_RRACE": "yes",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "yes"
+    },
+    {
+      "id": "7",
+      "hotel_name": "Hotel Diamond Creek",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "5025",
+      "description": "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Putli Ghar part of Amritsar, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Golden Temple. This 4-star property features restaurant to make your stay more indulgent and memorable.",
+      "room_size": "12 m²/129 ft²",
+      "guests": "80",
+      "number_rooms": "42",
+      "reviews": "7.9 VERY GOOD",
+      "location": "",
+      "AIRPORT_TRANSFER": "yes",
+      "CAR_PARKING": "No",
+      "FREE_WIFI": "yes",
+      "BALCONY_TERRACE": "yes",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "No"
+    },
+    {
+      "id": "8",
+      "hotel_name": "Country Inn Hall Of Heritage Amritsar",
+      "img1": "abc.jpeg",
+      "img2": "abc.jpeg",
+      "img3": "abc.jpeg",
+      "img4": "abc.jpeg",
+      "img5": "abc.jpeg",
+      "price": "2284",
+      "description": "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Putli Ghar part of Amritsar, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Golden Temple. This 4-star property features restaurant to make your stay more indulgent and memorable.",
+      "room_size": "20 m²/215 ft²",
+      "guests": "80",
+      "number_rooms": "42",
+      "reviews": "8.0 EXCELLENT",
+      "location": "",
+      "AIRPORT_TRANSFER": "yes",
+      "CAR_PARKING": "yes",
+      "FREE_WIFI": "yes",
+      "BALCONY_TERRACE": "yes",
+      "PRIVATE": "yes",
+      "BBQ_FACILITIES": "yes"
+    }
+  ],
+  "Rooms": [
+    {
+      "id": "1",
+      "Free Cancellation Before Check-in": "yes",
+      "Pay At the Hotel": "yes",
+      "Free WIFI": "yes",
+      "Free Parking": "yes",
+      "offer": "7%",
+      "price": "3200",
+      "cut_price": "3700",
+      "number_rooms": "Our last",
+      "b_price": "",
+      "b_cutprice": "",
+      "b_offer": "3%"
+    },
+    {
+      "id": "2",
+      "Free Cancellation Before Check-in": "yes",
+      "Pay At the Hotel": "yes",
+      "Free WIFI": "yes",
+      "Free Parking": "yes",
+      "offer": "7%",
+      "price": "1200",
+      "cut_price": "3400",
+      "number_rooms": "Our last"
+    },
+    {
+      "id": "3",
+      "Free Cancellation Before Check-in": "yes",
+      "Pay At the Hotel": "yes",
+      "Free WIFI": "yes",
+      "Free Parking": "yes",
+      "offer": "20%",
+      "price": "2200",
+      "cut_price": "5400",
+      "number_rooms": "32"
+    },
+    {
+      "id": "4",
+      "Free Cancellation Before Check-in": "yes",
+      "Pay At the Hotel": "yes",
+      "Free WIFI": "yes",
+      "Free Parking": "yes",
+      "offer": "10%",
+      "price": "1800",
+      "cut_price": "2000",
+      "number_rooms": "32"
+    }
+  ],
+  "addToCart": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "cart_id": 1,
+      "price": "2200",
+      "hotel_id": "2",
+      "room_id": "3",
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    }
+  ]
+}

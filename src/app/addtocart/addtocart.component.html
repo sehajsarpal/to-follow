@@ -1,0 +1,36 @@
+<div class="container-fluid main_box">
+    <div class="row">
+        <div class="col-md-4 box_1">
+        <div class="col-md-4 box_5">
+            <img src="../../assets/images/logo.png" class="img_1">
+         </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h3 class="text-center text-primary p-3">Cart Items</h3>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">room_id</th>
+        <th scope="col">Price</th>
+        <th scope="col">hotel_id</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let cart of cartData">
+      <tr>
+        <th scope="row">{{cart.cart_id}}</th>
+        <td>{{cart.room_id}}</td>
+        <td>{{cart.price}}</td>
+        <td>{{cart.hotel_id}}</td>
+        <td>
+            <button class="btn btn-danger" (click)="delete_data(cart.cart_id)"><i class="fa fa-trash"></i></button>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>

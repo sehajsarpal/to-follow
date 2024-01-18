@@ -1,0 +1,77 @@
+<div class="container-fluid main_box">
+    <div class="row">
+        <div class="col-md-4 box1">
+        <div class="col-md-4 box5">
+            <img src="../../assets/images/logo.png" class="img1">
+            
+        </div>
+        
+    </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-12 detail_box">
+        <div class="col-md-10 detail_win">
+            <div class="col-md-9 photo">
+                <div class="col-md-5 photo_box1">
+                </div>
+                <div class="col-md-6 photo_box2">
+                    <div class="col-md-6 photo_box3">
+    
+                    </div>
+                    <div class="col-md-5 photo_box3">
+
+                    </div>
+                    <div class="col-md-6 photo_box3">
+    
+                    </div>
+                    <div class="col-md-5 photo_box3">
+
+                    </div>
+                 </div>
+            </div>
+            <div class="col-md-9 overview_box border">
+                <p class="detail_lines">Overview</p>
+                <a routerLink="/room"><p class="detail_lines">Rooms</p></a>
+                <a href="#map"><p class="detail_lines">Location</p></a>
+                <p class="price">Rs.{{rooms.price}}</p>
+                <a routerLink="/room/{{rooms.id}}"><button type="button" class="view">View this deal</button></a>
+            </div>
+            <div class="col-md-9 description border">
+                <h2 class="des">{{rooms.hotel_name}}</h2>
+                <hr>
+                <p class="p-2 text-centre">{{rooms.description}}</p>
+            </div>
+            <div class="col-md-6 border description" id="description">
+                 <h2 class="des m-3">Space & Rooms</h2>
+                 <hr>
+                  <p class="m-2 text-centre">{{rooms.room_size}}</p>
+                 <p class="m-2 text-centre display">Max {{rooms.guests}} guests</p>
+                 <div class="vr"></div>
+                 <p class="m-2 text-centre display">{{rooms.number_rooms}} Rooms</p>
+                 <div class="vr"></div>
+                 <!-- <p class="m-2 text-centre display">{{}}</p>
+                 <div class="vr"></div> -->
+                 <a routerLink="/room" class="text-primary m-5 p-1 bg-secondary">More Rooms</a>
+                </div>
+                <div class="col-md-2 border review">
+                    <h2 class="p-1" id="reviews">{{rooms.reviews}}</h2>
+                    <a href="#" class="text-primary m-2">47 Reviews</a>
+                </div>
+                <div class="col-md-2 border maps" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13649.814672724966!2d75.77272319999999!3d31.208158249999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1688447969095!5m2!1sen!2sin" height="200px;" width="100%" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 border facilities">
+                    <i class="fa fa-check m-2 {{rooms.AIRPORT_TRANSFER}}" aria-hidden="true" >Airport Transfer</i>
+                    <i class="fa fa-check m-3 {{rooms.CAR_PARKING}}" aria-hidden="true">Car parking</i>
+                    <i class="fa fa-check m-4 {{rooms.FREE_WIFI}}" aria-hidden="true">Free Wi-Fi</i>
+                    <i class="fa fa-check m-2 {{rooms.BALCONY_TERRACE}}" aria-hidden="true">Balcony & Terrace</i>
+                    <i class="fa fa-check m-2 {{rooms.PRIVATE}}" aria-hidden="true">Private Check-in/out</i>
+                    <i class="fa fa-check m-2 {{rooms.BBQ_FACILITIES}}" aria-hidden="true">BBQ Facilities</i>
+                </div>
+        </div>
+    </div>
+    </div>
+</div>
+

@@ -1,0 +1,21 @@
+.foot{
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+.footer{
+    height: 130px;
+    background-color: black;
+}
+.insta{
+    font-size: 80px;
+    display: inline-block;
+}
+.one{
+    color:  white;
+    display:inline-block;
+    margin-left: 65%;
+}
+.full{
+    position: sticky;
+    bottom:0% ;
+}

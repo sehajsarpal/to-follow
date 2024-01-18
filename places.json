@@ -1,0 +1,52 @@
+{
+  "places": [
+    {
+      "id": "1",
+      "hotel_name": "Keyonn Hotels & Resorts",
+      "price": "Rs.1200",
+      "location": "Amritsar"
+    },
+    {
+      "id": "2",
+      "hotel_name": "Hotel Grand Fortune",
+      "price": "Rs.1100",
+      "location": "Amritsar"
+    },
+    {
+      "id": "3",
+      "hotel_name": "The Landmark Amritsar",
+      "price": "Rs.2100",
+      "location": "Amritsar"
+    },
+    {
+      "id": "4",
+      "hotel_name": "Hotel Millennium",
+      "price": "Rs.1000",
+      "location": "Amritsar"
+    },
+    {
+      "id": "5",
+      "hotel_name": "Regenta Place Verka ByPass Amritsar",
+      "price": "Rs.2400",
+      "location": "Amritsar"
+    },
+    {
+      "id": "6",
+      "hotel_name": "Radisson Blu Hotel Amritsar",
+      "price": "Rs.5158",
+      "location": "Amritsar"
+    },
+    {
+      "id": "7",
+      "hotel_name": "Hotel Diamond Creek",
+      "price": "Rs.1467",
+      "location": "Amritsar"
+    },
+    {
+      "id": "8",
+      "hotel_name": "Country Inn Hall of Heritage Amritsar",
+      "price": "Rs.2611",
+      "location": "Amritsar"
+    }
+  ]
+}

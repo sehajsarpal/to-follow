@@ -1,0 +1,135 @@
+@font-face{
+    font-family: 'slogon';
+    src: url(../../assets/fonts/WinterSong-owRGB.ttf);
+}
+.box1{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(../../assets/images/venice-wallpaper-4k-492886.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    height: 300px;
+    width: 70%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top:30%;
+    left:15%;
+    display: inline-block;
+}
+.slogon{
+    position: absolute;
+    font-family: Baguet Script;
+    top: 50%;
+    font-weight: 900;
+    left: 29%;
+    font-size: 60px;
+    color: rgba(245, 245, 245, 0.833);
+}
+.box_main{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+.box3{
+    height:50px;
+    /* border: 1px solid black; */
+}
+.input_1{
+    padding: 11px;
+    width: 23%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.276);
+    margin: 1%;
+}
+.box2_bg{
+    height: 300px;
+    width: 100%;
+}
+.btn1{
+    height:45px;
+    width: 80px;
+    padding: 5px;
+    position: absolute;
+    top:4%;
+    right: -8%;
+    border-radius:80px;
+    background-color: rgba(245, 245, 245, 0.406);
+    border: none;
+}
+.box5{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.292);
+}
+.box6{
+    height: 80px;
+    width: 75%;
+    margin-top: -3%;
+    margin-left: 14%;
+    position: sticky;
+    top: 0%;
+    /* border:1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.388);
+    
+}
+.login{
+    height: 50px;
+    width: 12%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left:55%;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.461);
+    border: none;
+    box-shadow: 1px 1px rgba(134, 134, 134, 0.575);
+}
+.menu{
+    position: absolute;
+    left: 81%;
+    padding: 13px;
+    width: 12%;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:   rgba(128, 128, 128, 0.461);
+    box-shadow: 1px 1px rgba(134, 134, 134, 0.575);
+}
+.manage{
+    position: absolute;
+    left: 68%;
+    padding: 13px;
+    width: 12%;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.461);
+    box-shadow: 1px 1px rgba(134, 134, 134, 0.575);
+}
+.img1{
+    height: 130px;
+    border-radius: 10px;
+    position:absolute;
+    opacity:80%;
+    left: 7%;
+    top: 0.5%;
+}
+.btn2{
+    height: 40px;
+    width: 10%;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-left: 7%;
+    margin-top: 1.7%;
+    background-color: #fd3e3e;
+    box-shadow: 1px 1px rgba(134, 134, 134, 0.575);
+    color: white;
+}
+

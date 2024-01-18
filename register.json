@@ -1,0 +1,53 @@
+{
+  "register": [
+    {
+      "email": "",
+      "password": "",
+      "pass": "",
+      "id": 1
+    },
+    {
+      "email": "sehajsarpal",
+      "password": "1122",
+      "pass": "1122",
+      "id": 2
+    },
+    {
+      "email": "kavita",
+      "password": "123",
+      "pass": "123",
+      "id": 3
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "pass": "112233",
+      "id": 4
+    },
+    {
+      "email": "man1",
+      "password": "1233",
+      "id": 5
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "id": 6
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "id": 7
+    },
+    {
+      "email": "man1",
+      "password": "112233",
+      "id": 8
+    },
+    {
+      "email": "sehaj sarpal",
+      "password": "12",
+      "id": 9
+    }
+  ]
+}

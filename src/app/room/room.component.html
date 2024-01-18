@@ -1,0 +1,97 @@
+<div class="container-fluid main_box">
+    <div class="row">
+        <div class="col-md-4 box_1">
+        <div class="col-md-4 box_5">
+            <img src="../../assets/images/logo.png" class="img_1">
+            <a routerLink="/addtocart"><button type="submit" class="login"><i class="fa fa-cart-arrow-down" aria-hidden="true">   cart</i></button></a>
+         </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row" *ngFor="let roomData of room">
+        <div class="col-md-8 border box1" >
+            <h1>Room {{roomData.id}}</h1>
+            <div class="col-md-2 border photo_box">
+                <i class="fa fa-bed bed1"></i><p class="bed_text"> size :13m<sup>2</sup>/140ft<sup>2</sup></p>
+            </div>
+           
+            <div class="col-md-9 border box2"  >
+                <div class="col-md-12 border">
+                    <p class="bb">Benefits</p>
+                    <p class="sb">Sleeps</p>
+                    <p class="pb">payment & cancellation</p>
+                    <p class="pp">Price Per Night</p>
+                </div>
+                <div class="col-md-12 box3" >
+                    <div class="col-md-4 border header">
+                        <p class="m-2 line">Lowest price available!</p>
+                    </div>
+                    <p class="m-2">Your price includes:</p>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2" title="Any cancellation received will be free of charge">Free cancellation before check-in</span>
+                    <br>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2 No">Pay at the hotel</span><br>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2 No">Free Wi-Fi</span>
+                    <br>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2 No">Free Parking</span>
+                    <div class="col-md-1 border box4">
+                        <i class="fa fa-male mt-3 ms-3" aria-hidden="true"></i>
+                        <i class="fa fa-male" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-4 border box5">
+                        <p class="ms-2">Cancellation :</p>
+                        <u class="ms-2 ">Free cancellation before check-in </u>
+                        <p class="m-2">Payment :</p>
+                        <u class="ms-2">Book without credit card</u>
+                    </div>
+                    <div class="col-md-3 border box6">
+                        <div class="col-md-8 mt-3 bg-danger">
+                            <p>Save {{roomData.offer}} today</p>
+                        </div>
+                        <p class="ms-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<del>Rs.{{roomData.cut_price}}</del></p>
+                        <h5 class="ms-5 text-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.{{roomData.price}}</h5>
+                        <button type="button" class="bg-primary text-light btn1 ms-3">Book Now</button>
+                        <br>
+                        <br>
+         <button type="button" class="bg-primary text-light btn1 ms-3" (click)="get_data(roomData.id)">Add To Cart</button>
+                        <p class="text-danger ms-5 p-2">{{roomData.number_rooms}} room!</p>
+                        <!-- <a routerLink="../addtocart">click</a> -->
+                    </div>
+                </div>
+                <br>
+                <!-- <div class="col-md-12 box3">
+                    <div class="col-md-4 border header">
+                        <p class="m-2 line">Lowest price available!</p>
+                    </div>
+                    <p class="m-2">Your price includes:</p>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2" title="Any cancellation received will be free of charge">Free cancellation before check-in</span>
+                    <br>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2">Pay at the hotel</span><br>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2">Free Wi-Fi</span>
+                    <br>
+                    <i class="fa fa-check text-success"></i><span class="lines m-2">Free Parking</span>
+                    <div class="col-md-1 border box4">
+                        <i class="fa fa-male mt-3 ms-3" aria-hidden="true"></i>
+                        <i class="fa fa-male" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-4 border box5">
+                        <p class="ms-2">Cancellation :</p>
+                        <u class="ms-2 ">Free cancellation before check-in </u>
+                        <p class="m-2">Payment :</p>
+                        <u class="ms-2">Book without credit card</u>
+                    </div>
+                    <div class="col-md-3 border box6">
+                        <div class="col-md-8 mt-3 bg-danger">
+                            <p>Save 3% today</p>
+                        </div>
+                        <p class="ms-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<del>Rs.3,500</del></p>
+                        <h5 class="ms-5 text-danger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.3,402</h5>
+                        <button type="button" class="bg-primary text-light btn1 ms-3">Book Now</button>
+                        <p class="text-danger ms-5 p-2">Our last room!</p>
+                    </div>
+                </div>  -->
+            </div>
+            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container-fluid main_box">
+    <div class="row">
+        <div class="col-md-4 box1">
+        <div class="col-md-4 box5">
+            <img src="../../assets/images/Screenshot 2023-06-28 220804.png" class="img1">
+            <div class="col-md-4 signup_box">
+                <h1>LOG IN</h1>
+                <form #login="ngForm" (ngSubmit)="log(login)">
+                <input type="text" class="input_1" placeholder="Username" name="username" #username="ngModel" required ngModel>
+                <span *ngIf="username.invalid && username.touched" style="color: red; margin-left:320px; background-color:whitesmoke;">Enter valid username
+                </span>
+                <input type="password" class="input_1" placeholder="Password" #password="ngModel" required name="password" ngModel>
+                <span *ngIf="password.invalid && password.touched" style="color: red; margin-left:320px; background-color:whitesmoke;">Enter valid password
+                </span>
+                <button type="submit" class="btn1" [disabled]="login.invalid">login</button>
+                </form>
+            </div>
+
+    </div>
+
+    </div>

@@ -1,0 +1,23 @@
+<div class="container-fluid main_box">
+    <div class="row">
+        <div class="col-md-4 box1">
+        <div class="col-md-4 box5">
+            <img src="../../assets/images/Screenshot 2023-06-28 220804.png" class="img1">
+            <div class="col-md-4 signup_box">
+                <h1>SIGN UP</h1>
+                <form #signup="ngForm" (ngSubmit)="submit(signup)" name="myForm">
+                <input type="email" class="input_1" placeholder="Username" name="username"  required #username="ngModel" ngModel><span *ngIf="username.invalid && username.touched" style="color: red; margin-left:320px; background-color:whitesmoke;">Enter a valid input
+                </span>
+                <input type="password" class="input_1" placeholder="Password" name="pass" #password="ngModel" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" ngModel required>
+                <span *ngIf="password.invalid && password.touched" style="color: red; margin-left:320px; background-color:whitesmoke;">Valid password 
+                </span>
+                <input type="password" class="input_1" placeholder="Re-enter Password" name="re_pass" ngModel>
+                <button type="submit" class="btn1" [disabled]="signup.invalid">Sign Up</button>
+                <a routerLink="../login" class="login_a">login</a>
+                </form>
+            </div>
+
+    </div>
+
+    </div>
+    
